@@ -20,5 +20,17 @@
 # <td> 11 </td>
 # <td> 12 </td>
 # </tr>
-# <tbody>
+# </tbody>
 # </table>
+
+puts "<table>\n <tbody>" 
+k = 0
+3.times do
+    puts '  <tr>'
+    4.times do
+        k += 1
+        puts "   <td> #{k} </td>"
+    end
+    puts '  </tr>'
+end
+puts " </tbody>\n</table>"

@@ -7,7 +7,6 @@
 # 3  6  9  12
 # 4  8  12  16
 
-
 4.times do |i|
     c = ''
         4.times do |v|
